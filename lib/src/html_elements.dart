@@ -75,13 +75,11 @@ const INTERACTABLE_ELEMENTS = [
 ];
 
 const REPLACED_ELEMENTS = [
-  "audio",
   "br",
   "iframe",
   "img",
   "svg",
   "template",
-  "video",
   "rp",
   "rt",
   "ruby",
@@ -107,7 +105,6 @@ const TABLE_DEFINITION_ELEMENTS = ["col", "colgroup"];
     abbr      - s [x]
     acronym   - s [x]
     address   - s [x]
-    audio     - c [x]
     article   - b [x]
     aside     - b [x]
     b         - s [x]
@@ -185,6 +182,5 @@ const TABLE_DEFINITION_ELEMENTS = ["col", "colgroup"];
     u         - s [x]
     ul        - b [x] post
     var       - s [x]
-    video     - c [x]
     wbr       - s [x]
  */
